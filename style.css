@@ -19,7 +19,7 @@
 
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .container {
@@ -43,23 +43,12 @@
     text-shadow: 10px 10px 10px rgba(84, 89, 134, 0.5);
 }
 
-/* .button {
-
+/* .form-control {
+    background-color: rgb(161, 192, 248);
 } */
 
-.head-btn {
-    cursor: pointer;
-    font-size: 25px;
-    color:rgb(183, 212, 238);
-    background-color: rgb(139, 77, 77);
-    border: 2px solid rgb(58, 49, 49);
-    border-radius: 10px;
-    padding: 10px 15px;
-    margin-left: 20px;
-}
-.head-btn:hover {
-    background-color: rgb(102, 96, 122);
-    border: 2px solid rgba(112, 77, 77, 0.5);
+.form-group {
+    display: flex;
 }
 
 .people-info {
@@ -101,10 +90,10 @@
 .btn {
     font-size: 15px;
     font-weight: 500;
-    color: rgb(87, 87, 121);
-    background-color: rgb(245, 204, 214);
+    color: rgb(146, 146, 230);
+    /* background-color: rgb(245, 204, 214); */
     padding: 5px;
-    border: 1px solid rgb(245, 204, 214);
+    /* border: 1px solid rgb(245, 204, 214); */
 }
 
 .link-btn {
@@ -126,9 +115,10 @@
 }
 
 .name-list {
-    font-size: 20px;
+    font-size: 16px;
     color: aliceblue;
     padding: 10px;
     list-style: none;
+    margin: 5px;
 }
 
